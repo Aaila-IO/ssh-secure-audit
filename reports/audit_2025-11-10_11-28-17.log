@@ -1,0 +1,13 @@
+-------------------------------------------
+SSH Secure Audit v0.1
+-------------------------------------------
+[*] OpenSSH Version Detected: OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+[+] Root login is DISABLED - Good
+[!] Password Authentication ENABLED - Consider using key-based authentication
+[*] Failed SSH Login Attempts: 0
+[*] SSH Port not explicitly set. Using default port 22.
+[!] SSH is running on default port 22 - Consider changing it to reduce automated attacks
+-------------------------------------------
+[*] Checking SSH service status...
+[+] SSH service is RUNNING
+[+] SSH service is ENABLED to start on boot

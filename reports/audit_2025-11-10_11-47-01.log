@@ -1,0 +1,21 @@
+-------------------------------------------
+SSH Secure Audit v0.1
+-------------------------------------------
+[*] OpenSSH Version Detected: 
+[*] Checking for known vulnerabilities (CVE-2024-6387)...
+[!] Unable to parse OpenSSH version for vulnerability check.
+[+] Root login is DISABLED - Good
+[!] Password Authentication ENABLED - Consider using key-based authentication
+[*] Failed SSH Login Attempts: 0
+[*] SSH Port not explicitly set. Using default port 22.
+[!] SSH is running on default port 22 - Consider changing it to reduce automated attacks
+-------------------------------------------
+[*] Checking SSH service status...
+[+] SSH service is RUNNING
+[+] SSH service is ENABLED to start on boot
+-------------------------------------------
+[*] Checking for weak or deprecated SSH ciphers...
+[!] Weak cipher or algorithm detected: des
+[*] Checking for known vulnerabilities (CVE-2024-6387)...
+(standard_in) 1: syntax error
+[+] No known CVE-2024-6387 vulnerability detected for this version.

@@ -1,0 +1,8 @@
+-------------------------------------------
+SSH Secure Audit v0.1
+-------------------------------------------
+[*] OpenSSH Version Detected: OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+[*] Checking for known vulnerabilities (CVE-2024-6387)...
+[+] No known CVE-2024-6387 vulnerability detected for this version.
+./audit.sh: line 43: syntax error near unexpected token `then'
+./audit.sh: line 43: `permit_root=$(grep -i "^PermitRootLogin" /etc/ssh/sshd_config | awk '{print $2}') if [[ "$permit_root" == "yes" ]]; then'
