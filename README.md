@@ -60,6 +60,10 @@ You can check them using:
 
 ---
 
+Download the full SSH Secure Audit Tool here:
+
+https://zahidflare03.gumroad.com/l/ssh-secure-audit
+
 ### ⭐ Support & Contributions
 
 If you found **SSH Secure Audit** helpful, please consider giving it a ⭐ on GitHub —  
